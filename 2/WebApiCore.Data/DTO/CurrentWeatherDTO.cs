@@ -12,6 +12,7 @@ namespace WebApiCore.Data.DTO
         public string Status { get; set; }
         public float Temp { get; set; }
         public float MinTemp { get; set; }
+
         public float MaxTemp { get; set; }
     }
 }
