@@ -33,6 +33,8 @@ namespace BusinessLogic
                 Spectators = element.Spectators,
                 Date = element.Date,
                 GameResult = (DataAccessLayer.Entities.Result)element.GameResult
+
+
             };
 
             DB.Games.Create(game);
